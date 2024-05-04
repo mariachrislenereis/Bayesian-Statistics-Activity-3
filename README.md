@@ -3,9 +3,10 @@ Activity 3: Coding the sample attachments in Python
 
 ## Script/Code (1st Picture)
 
-calculate the probability of cancer patient and diagnostic test
+```python
+# calculate the probability of cancer patient and diagnostic test
 
-calculate P(A|B) given P(A), P(B|A), P(B|not A)
+# calculate P(A|B) given P(A), P(B|A), P(B|not A)
 
 def bayes_theorem(p_a, p_b_given_a, p_b_given_not_a):
     # calculate P(not A)
@@ -26,10 +27,11 @@ p_b_given_not_a = 0.05
 result = bayes_theorem(p_a, p_b_given_a, p_b_given_not_a)
 #summarize
 print('P(A|B) = %.3f%%' % (result * 100))
-
+```
 
 ## Script/Code (2nd Picture)
 
+```python
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -43,7 +45,7 @@ for i in range(2):
         plt.annotate(prior_probs[i,j], (j,i), color="red", fontsize=20, fontweight='bold', ha='center', va='center')
         
 plt.title('Prior Probabilities', fontsize=20)   
-
+```
 
 ## Screenshot of the Output
 
