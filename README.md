@@ -1,7 +1,7 @@
 # Bayesian-Statistics-Activity-3
 Activity 3: Coding the sample attachments in Python
 
-## Script/Code (1st Picture)
+## Sample Problem Script/Code (1st Picture)
 
 ```python
 # calculate the probability of cancer patient and diagnostic test
@@ -29,7 +29,7 @@ result = bayes_theorem(p_a, p_b_given_a, p_b_given_not_a)
 print('P(A|B) = %.3f%%' % (result * 100))
 ```
 
-## Script/Code (2nd Picture)
+## Python Plot Script/Code (2nd Picture)
 
 ```python
 import numpy as np
@@ -53,3 +53,7 @@ plt.title('Prior Probabilities', fontsize=20)
 
 
 ![activity 3 2](https://github.com/mariachrislenereis/Bayesian-Statistics-Activity-3/assets/168893458/a0bb4a6a-2308-4eb9-826f-cd80ecc83c3f)
+
+## Note
+
+For educational purposes.
